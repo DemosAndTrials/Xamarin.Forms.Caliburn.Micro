@@ -1,4 +1,4 @@
-﻿namespace Core.Views
+﻿namespace Shell.Views
 {
     public partial class MainView
     {

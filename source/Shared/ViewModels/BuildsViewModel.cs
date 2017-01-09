@@ -35,7 +35,7 @@ namespace Shared.ViewModels
         
         public async void QueueBuild()
         {
-            var selectedDefinition = await _dialogs.ShowSelectionDialogAsync("Queue a new build", "Definitions", _definitions);
+            var selectedDefinition = _definitions.First();//await _dialogs.ShowSelectionDialogAsync("Queue a new build", "Definitions", _definitions);
 
             if (selectedDefinition == null)
                 return;

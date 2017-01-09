@@ -8,7 +8,7 @@ using App.UWP.Views;
 using Caliburn.Micro;
 using Shared.Services;
 using Shared.ViewModels;
-using LoginView = Core.Views.LoginView;
+using LoginView = Shell.Views.LoginOldView;
 
 namespace App.UWP
 {
@@ -45,7 +45,7 @@ namespace App.UWP
         protected override IEnumerable<Assembly> SelectAssemblies()
         {
             yield return typeof(LoginView).GetTypeInfo().Assembly;
-            yield return typeof(LoginViewModel).GetTypeInfo().Assembly;
+            yield return typeof(LoginOldViewModel).GetTypeInfo().Assembly;
         }
 
         protected override object GetInstance(Type service, string key)

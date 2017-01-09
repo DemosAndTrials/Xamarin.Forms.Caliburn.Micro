@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:forms="clr-namespace:Caliburn.Micro.Xamarin.Forms;assembly=Caliburn.Micro.Platform.Xamarin.Forms"
-             x:Class="Core.Views.MainView" Title="{Binding DisplayName}">
+             x:Class="Shell.Views.MainView" Title="{Binding DisplayName}">
 
     <StackLayout Padding="24,12,24,0">
         <Label Text="Demo label" TextColor="#FFF34235"/>

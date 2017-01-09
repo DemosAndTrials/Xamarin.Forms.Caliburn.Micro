@@ -32,7 +32,7 @@ namespace App.iOS
             return new[]
             {
                 typeof (LoginView).Assembly,
-                typeof (LoginViewModel).Assembly
+                typeof (LoginOldViewModel).Assembly
             };
         }
 

@@ -5,13 +5,13 @@ using Shared.Services;
 
 namespace Shared.ViewModels
 {
-    public class LoginViewModel : Screen
+    public class LoginOldViewModel : Screen
     {
         private readonly ICredentialsService _credentials;
         private readonly IAuthenticationService _authentication;
         private readonly IApplicationNavigationService _navigation;
 
-        public LoginViewModel(ICredentialsService credentials, IAuthenticationService authentication, IApplicationNavigationService navigation)
+        public LoginOldViewModel(ICredentialsService credentials, IAuthenticationService authentication, IApplicationNavigationService navigation)
         {
             this._credentials = credentials;
             this._authentication = authentication;

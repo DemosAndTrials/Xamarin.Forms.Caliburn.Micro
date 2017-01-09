@@ -13,7 +13,7 @@ namespace App.iOS
         {
             Xamarin.Forms.Forms.Init();
 
-            LoadApplication(new Core.Application(IoC.Get<SimpleContainer>()));
+            LoadApplication(new Shell.Application(IoC.Get<SimpleContainer>()));
 
             return base.FinishedLaunching(app, options);
         }

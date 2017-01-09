@@ -18,6 +18,11 @@ namespace Shared.ViewModels
             _dialogs = dialogs;
         }
 
+        protected override void OnActivate()
+        {
+            base.OnActivate();
+        }
+
         public override string DisplayName
         {
             get { return "MainView"; }
@@ -26,7 +31,7 @@ namespace Shared.ViewModels
 
         public void Login()
         {
-            _navigation.To<LoginViewModel>();
+            _navigation.To<LoginOldViewModel>();
         }
 
         public async Task Popup()

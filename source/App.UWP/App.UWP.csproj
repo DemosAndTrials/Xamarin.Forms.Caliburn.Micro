@@ -136,9 +136,9 @@
       <Project>{2787049f-e446-46db-a570-ad874831ab1c}</Project>
       <Name>Shared</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Core\Core.csproj">
+    <ProjectReference Include="..\Shell\Shell.csproj">
       <Project>{21cffa7f-a708-4fe6-b6cb-4d4bc379a154}</Project>
-      <Name>Core</Name>
+      <Name>Shell</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

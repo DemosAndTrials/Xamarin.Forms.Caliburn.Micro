@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{2787049F-E446-46DB-A570-AD874831AB1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{21CFFA7F-A708-4FE6-B6CB-4D4BC379A154}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shell", "Shell\Shell.csproj", "{21CFFA7F-A708-4FE6-B6CB-4D4BC379A154}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.UWP", "App.UWP\App.UWP.csproj", "{31D7B9FB-C958-4575-BA9C-6422D76839AE}"
 EndProject

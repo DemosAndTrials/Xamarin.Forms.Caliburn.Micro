@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
-             xmlns:converter="clr-namespace:Core.Converter;assembly=Core"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:Shell.Converters;assembly=Shell"
              x:Class="Core.Views.BuildView">
  <ContentView.Resources>
     <ResourceDictionary>
-      <converter:StringToColorConverter x:Key="ColorConverter"  />
+      <converters:StringToColorConverter x:Key="ColorConverter"  />
     </ResourceDictionary>
   </ContentView.Resources>
   <Grid Opacity="{Binding Completed}" Padding="5,0,0,0">

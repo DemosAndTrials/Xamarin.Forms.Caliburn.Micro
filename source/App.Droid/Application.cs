@@ -7,7 +7,7 @@ using App.Droid.Services;
 using Caliburn.Micro;
 using Shared.Services;
 using Shared.ViewModels;
-using LoginView = Core.Views.LoginView;
+using LoginView = Shell.Views.LoginOldView;
 
 namespace App.Droid
 {
@@ -44,7 +44,7 @@ namespace App.Droid
             return new[]
             {
                 typeof (LoginView).Assembly,
-                typeof (LoginViewModel).Assembly
+                typeof (LoginOldViewModel).Assembly
             };
         }
 

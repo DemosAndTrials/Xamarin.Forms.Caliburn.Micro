@@ -4,8 +4,11 @@ using Shared.Model;
 using Shared.Services;
 using Shared.ViewModels;
 
-namespace Core.Services
+namespace Shell.Services
 {
+    /// <summary>
+    /// Navigation service
+    /// </summary>
     public class ApplicationNavigationService : IApplicationNavigationService
     {
         private readonly INavigationService _navigation;

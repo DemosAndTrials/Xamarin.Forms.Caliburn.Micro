@@ -3,9 +3,9 @@
   "version": 1,
   "targets": {
     "UAP,Version=v10.0": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -17,7 +17,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -25,9 +25,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -2091,9 +2091,9 @@
       }
     },
     "UAP,Version=v10.0/win10-arm": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -2105,7 +2105,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -2113,9 +2113,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -4259,9 +4259,9 @@
       }
     },
     "UAP,Version=v10.0/win10-arm-aot": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -4273,7 +4273,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -4281,9 +4281,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -6466,9 +6466,9 @@
       }
     },
     "UAP,Version=v10.0/win10-x64": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -6480,7 +6480,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -6488,9 +6488,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -8643,9 +8643,9 @@
       }
     },
     "UAP,Version=v10.0/win10-x64-aot": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -8657,7 +8657,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -8665,9 +8665,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -10859,9 +10859,9 @@
       }
     },
     "UAP,Version=v10.0/win10-x86": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -10873,7 +10873,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -10881,9 +10881,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -13036,9 +13036,9 @@
       }
     },
     "UAP,Version=v10.0/win10-x86-aot": {
-      "Caliburn.Micro/3.0.1": {
+      "Caliburn.Micro/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro.Core": "[3.0.3]",
           "Microsoft.Xaml.Behaviors.Uwp.Managed": "1.1.0"
         },
         "compile": {
@@ -13050,7 +13050,7 @@
           "lib/uap10.0/Caliburn.Micro.Platform.UWP.dll": {}
         }
       },
-      "Caliburn.Micro.Core/3.0.1": {
+      "Caliburn.Micro.Core/3.0.3": {
         "compile": {
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         },
@@ -13058,9 +13058,9 @@
           "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10+uap10.0/Caliburn.Micro.dll": {}
         }
       },
-      "Caliburn.Micro.Xamarin.Forms/3.0.1": {
+      "Caliburn.Micro.Xamarin.Forms/3.0.3": {
         "dependencies": {
-          "Caliburn.Micro.Core": "[3.0.1]",
+          "Caliburn.Micro": "[3.0.3]",
           "Xamarin.Forms": "2.0.1.6505"
         },
         "compile": {
@@ -15253,17 +15253,19 @@
     }
   },
   "libraries": {
-    "Caliburn.Micro/3.0.1": {
-      "sha512": "6RaRnvbHnwm2kx9N+xyI6+qCLDJaAGsV1JgKlQ2QWApYNinpqO1GglwZdCWQ6eWj0var+XjbM8V7NYqB/C1elg==",
+    "Caliburn.Micro/3.0.3": {
+      "sha512": "j5j9Y2+AyDJjIstPBmDruorM48UqmBJDtMCBcaXzbD08zb0dpkCZKd1p/qXFMjN/aVuA6Th622nRyP0Cca/hbg==",
       "type": "package",
-      "path": "Caliburn.Micro/3.0.1",
+      "path": "Caliburn.Micro/3.0.3",
       "files": [
-        "Caliburn.Micro.3.0.1.nupkg.sha512",
+        "Caliburn.Micro.3.0.3.nupkg.sha512",
         "Caliburn.Micro.nuspec",
         "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.dll",
+        "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.dll.mdb",
         "lib/MonoAndroid10/Caliburn.Micro.Platform.Core.xml",
         "lib/MonoAndroid10/Caliburn.Micro.Platform.dll",
         "lib/MonoAndroid10/Caliburn.Micro.Platform.xml",
+        "lib/MonoAndroid10/Caliburn.Micro.dll.mdb",
         "lib/MonoTouch10/Caliburn.Micro.Platform.Core.dll",
         "lib/MonoTouch10/Caliburn.Micro.Platform.Core.dll.mdb",
         "lib/MonoTouch10/Caliburn.Micro.Platform.Core.xml",
@@ -15315,12 +15317,12 @@
         "lib/wpa81/Microsoft.Xaml.Interactivity.dll"
       ]
     },
-    "Caliburn.Micro.Core/3.0.1": {
-      "sha512": "CZPp0HVaHiW/N6JGsXpyJXnoyVRhFMY+H2uZcD24oNPczLOX1WuWsyVrSdagqUhjZnP1wV42Y6PkIUXEWWgOCg==",
+    "Caliburn.Micro.Core/3.0.3": {
+      "sha512": "ZeFYJIA8AbDZYpaJ4uANK8cSusE8APY8BfDXGyTi2F81D+a4ezMlLd5UPqvLZ3W6IpvXfhdqhj6ZaP8BmNmB3Q==",
       "type": "package",
-      "path": "Caliburn.Micro.Core/3.0.1",
+      "path": "Caliburn.Micro.Core/3.0.3",
       "files": [
-        "Caliburn.Micro.Core.3.0.1.nupkg.sha512",
+        "Caliburn.Micro.Core.3.0.3.nupkg.sha512",
         "Caliburn.Micro.Core.nuspec",
         "lib/net40/Caliburn.Micro.XML",
         "lib/net40/Caliburn.Micro.dll",
@@ -15333,12 +15335,12 @@
         "lib/sl5/Caliburn.Micro.dll"
       ]
     },
-    "Caliburn.Micro.Xamarin.Forms/3.0.1": {
-      "sha512": "fihisbUUkZF+ayuAtsbyxv5ENCNfURrISIJC/8eIwzKFPo8feeFLIvHaUHmKEi/jbQc/kglKU1oTbHlDiYBe4w==",
+    "Caliburn.Micro.Xamarin.Forms/3.0.3": {
+      "sha512": "QswlWjliNaPDSt7KjATBowJO2SoBtnWRYXdpUo2Uv7iE2QblenWZVwHukjXaAFgzoqQcAn4TGHIfQ1ypKcJeKA==",
       "type": "package",
-      "path": "Caliburn.Micro.Xamarin.Forms/3.0.1",
+      "path": "Caliburn.Micro.Xamarin.Forms/3.0.3",
       "files": [
-        "Caliburn.Micro.Xamarin.Forms.3.0.1.nupkg.sha512",
+        "Caliburn.Micro.Xamarin.Forms.3.0.3.nupkg.sha512",
         "Caliburn.Micro.Xamarin.Forms.nuspec",
         "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10/Caliburn.Micro.Platform.Xamarin.Forms.dll",
         "lib/portable-net45+win8+wp8+wpa81+MonoAndroid10+Xamarin.iOS10+MonoTouch10/Caliburn.Micro.Platform.Xamarin.Forms.xml"
@@ -21693,8 +21695,8 @@
   },
   "projectFileDependencyGroups": {
     "": [
-      "Caliburn.Micro >= 3.0.1",
-      "Caliburn.Micro.Xamarin.Forms >= 3.0.1",
+      "Caliburn.Micro >= 3.0.3",
+      "Caliburn.Micro.Xamarin.Forms >= 3.0.3",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
       "Xamarin.Forms >= 2.3.3.180"
     ],

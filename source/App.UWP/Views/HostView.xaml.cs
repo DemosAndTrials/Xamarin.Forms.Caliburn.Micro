@@ -1,5 +1,6 @@
 ﻿using Caliburn.Micro;
 using Core;
+using Shell;
 
 namespace App.UWP.Views
 {

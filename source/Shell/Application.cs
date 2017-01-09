@@ -1,14 +1,14 @@
 ﻿using Caliburn.Micro;
 using Caliburn.Micro.Xamarin.Forms;
-using Core.Services;
-using Core.Views;
 using Shared.Services;
 using Shared.Services.NoNetwork;
 using Shared.ViewModels;
+using Shell.Services;
+using Shell.Views;
 using Xamarin.Forms;
-using LoginView = Core.Views.LoginView;
+using MainView = Shell.Views.MainView;
 
-namespace Core
+namespace Shell
 {
     public class Application : FormsApplication
     {
@@ -20,8 +20,8 @@ namespace Core
 
             Initialize();
 
-            ViewModelLocator.AddNamespaceMapping("Core.Views", "Shared.ViewModels");
-            ViewLocator.AddNamespaceMapping("Shared.ViewModels", "Core.Views");
+            ViewModelLocator.AddNamespaceMapping("Shell.Views", "Shared.ViewModels");
+            ViewLocator.AddNamespaceMapping("Shared.ViewModels", "Shell.Views");
 
             MessageBinder.SpecialValues.Add("$tappedItem", GetTappedItem);
 
@@ -31,15 +31,16 @@ namespace Core
                .Singleton<ITeamServicesClient, OfflineTeamServicesClient>()
                .Singleton<IAuthenticationService, OfflineAuthenticationService>()
                .Singleton<IApplicationNavigationService, ApplicationNavigationService>()
-               .Singleton<IDialogService, ActionSheetDialogService>();
+               .Singleton<IDialogService, ApplicationDialogService>();
 
             container
+                .PerRequest<RootViewModel>()
                 .PerRequest<MainViewModel>()
-                .PerRequest<LoginViewModel>()
+                .PerRequest<LoginOldViewModel>()
                 .PerRequest<ProjectsViewModel>()
                 .PerRequest<BuildsViewModel>();
 
-            DisplayRootView<MainView>();
+            DisplayRootView<RootView>();
         }
 
         private object GetTappedItem(ActionExecutionContext c)
@@ -52,7 +53,7 @@ namespace Core
 
             return selectedItem;
         }
-
+        
         protected override void PrepareViewFirst(NavigationPage navigationPage)
         {
             _container.Instance<INavigationService>(new NavigationPageAdapter(navigationPage));
