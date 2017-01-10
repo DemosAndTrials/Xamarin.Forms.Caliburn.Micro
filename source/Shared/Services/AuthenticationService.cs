@@ -3,6 +3,7 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
+using Xamarin.Auth;
 
 namespace Shared.Services
 {
@@ -26,6 +27,14 @@ namespace Shared.Services
                     return response.StatusCode == HttpStatusCode.OK;
                 }
             }
+        }
+
+        // new stuff
+        public Account UserAccount { get; private set; }
+
+        public void SetAccount(Account account)
+        {
+            UserAccount = account;
         }
     }
 }

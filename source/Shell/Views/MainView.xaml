@@ -14,5 +14,13 @@
             <Button forms:Message.Attach="Popup" Text="Show message"/>
         </Frame>
         <Label Text="{Binding DialogMessage}" TextColor="#FFF34235" />
+
+        <Label Text="User profile" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+        <Label Text="Username:"/>
+        <Label Text="{Binding Username}" TextColor="Fuchsia"/>
+        <Label Text="Email:"/>
+        <Label Text="{Binding EmailAddress}" TextColor="Green"/>
+        <Label Text="{Binding PhotoUrl}" TextColor="Blue"/>
+        <Image Source="{Binding PhotoUrl}" BackgroundColor="Gray"/>
     </StackLayout>
 </ContentPage>

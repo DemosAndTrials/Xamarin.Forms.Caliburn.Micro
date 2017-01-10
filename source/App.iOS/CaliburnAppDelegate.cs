@@ -5,7 +5,7 @@ using App.iOS.Services;
 using Caliburn.Micro;
 using Shared.Services;
 using Shared.ViewModels;
-using LoginView = Core.Views.LoginView;
+using LoginView = Shell.Views.LoginOldView;
 
 namespace App.iOS
 {

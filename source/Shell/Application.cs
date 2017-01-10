@@ -29,12 +29,14 @@ namespace Shell
 
             container
                .Singleton<ITeamServicesClient, OfflineTeamServicesClient>()
-               .Singleton<IAuthenticationService, OfflineAuthenticationService>()
+               .Singleton<IAuthenticationService, AuthenticationService>()
                .Singleton<IApplicationNavigationService, ApplicationNavigationService>()
                .Singleton<IDialogService, ApplicationDialogService>();
 
             container
                 .PerRequest<RootViewModel>()
+                .PerRequest<LoginViewModel>()
+                .PerRequest<LoginPopupViewModel>()
                 .PerRequest<MainViewModel>()
                 .PerRequest<LoginOldViewModel>()
                 .PerRequest<ProjectsViewModel>()

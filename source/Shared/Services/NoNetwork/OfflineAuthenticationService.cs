@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using Xamarin.Auth;
 
 namespace Shared.Services.NoNetwork
 {
@@ -8,5 +9,11 @@ namespace Shared.Services.NoNetwork
 		{
 			return Task.FromResult(credentials.Account == "caliburn-micro");
 		}
+
+	    public Account UserAccount { get; private set; }
+	    public void SetAccount(Account account)
+	    {
+	        UserAccount = account;
+	    }
 	}
 }

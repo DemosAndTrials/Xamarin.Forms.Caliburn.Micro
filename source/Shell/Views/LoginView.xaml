@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cm="clr-namespace:Caliburn.Micro.Xamarin.Forms;assembly=Caliburn.Micro.Platform.Xamarin.Forms"
+             x:Class="Shell.Views.LoginView" BackgroundColor="White" Title="{Binding DisplayName}">
+
+    <StackLayout BackgroundColor="#d8dde6" Spacing="12" Padding="36" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+        <Label Text="Choose Connection" TextColor="Black"/>
+        <Button Text="Production" cm:Message.Attach="[Event Clicked] = [Login('login')]" />
+        <Button Text="Sandbox" cm:Message.Attach="[Event Clicked] = [Login('test')]"/>
+    </StackLayout>
+
+</ContentPage>

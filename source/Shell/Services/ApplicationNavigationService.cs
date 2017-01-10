@@ -3,6 +3,7 @@ using Caliburn.Micro.Xamarin.Forms;
 using Shared.Model;
 using Shared.Services;
 using Shared.ViewModels;
+using Shared.ViewModels.Abstract;
 
 namespace Shell.Services
 {
@@ -11,12 +12,22 @@ namespace Shell.Services
     /// </summary>
     public class ApplicationNavigationService : IApplicationNavigationService
     {
+        #region Fields and Properties
+
         private readonly INavigationService _navigation;
+
+        #endregion
+
+        #region MyRegion
 
         public ApplicationNavigationService(INavigationService navigation)
         {
             _navigation = navigation;
         }
+
+        #endregion
+
+        #region Methods
 
         public void ToProjects()
         {
@@ -36,5 +47,14 @@ namespace Shell.Services
             _navigation.For<T>()
                .Navigate();
         }
+
+        public void To<T>(object parameter) where T : class, IScreen, IHaveParameter
+        {
+            _navigation.For<T>()
+                .WithParam(v => v.NavigationParameter, parameter)
+                .Navigate();
+        } 
+
+        #endregion
     }
 }

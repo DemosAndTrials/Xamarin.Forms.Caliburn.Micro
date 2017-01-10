@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using Windows.ApplicationModel.Activation;
 using Windows.UI.Xaml;
+using App.UWP.CustomViews;
 using App.UWP.Services;
 using App.UWP.Views;
 using Caliburn.Micro;

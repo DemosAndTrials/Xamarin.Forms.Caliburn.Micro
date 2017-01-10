@@ -26,6 +26,8 @@ namespace App.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::PCLCrypto.Resource.String.ApplicationName = global::App.Droid.Resource.String.ApplicationName;
+			global::PCLCrypto.Resource.String.Hello = global::App.Droid.Resource.String.Hello;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::App.Droid.Resource.Attribute.actionBarSize;
 		}
 		

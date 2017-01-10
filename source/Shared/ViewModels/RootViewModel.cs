@@ -10,15 +10,16 @@ namespace Shared.ViewModels
         #region Field and Properties
 
         private readonly IApplicationNavigationService _navigation;
-
+        private readonly IAuthenticationService _authentication;
 
         #endregion
 
         #region Constructor
 
-        public RootViewModel(IApplicationNavigationService navigation)
+        public RootViewModel(IApplicationNavigationService navigation, IAuthenticationService authentication)
         {
             _navigation = navigation;
+            _authentication = authentication;
         }
 
         #endregion
@@ -31,8 +32,11 @@ namespace Shared.ViewModels
 
             if (NeedsLogin())
             {
+                _navigation.To<LoginViewModel>();
+            }
+            else
+            {
                 _navigation.To<MainViewModel>();
-
             }
         }
 
@@ -40,13 +44,13 @@ namespace Shared.ViewModels
         {
             try
             {
-                
-                return true;
+                // check if user authenticated here
+                return _authentication.UserAccount == null;
             }
             catch (Exception e)
             {
-               // needs logger
-               Debug.WriteLine(e);
+                // needs logger
+                Debug.WriteLine(e);
             }
             return true;
         }
