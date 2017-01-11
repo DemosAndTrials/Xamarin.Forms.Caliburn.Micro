@@ -30,13 +30,13 @@ namespace Shared.ViewModels
         {
             base.OnActivate();
 
-            if (NeedsLogin())
+            if (!NeedsLogin())
             {
                 _navigation.To<LoginViewModel>();
             }
             else
             {
-                _navigation.To<MainViewModel>();
+                _navigation.To<ShellViewModel>();
             }
         }
 

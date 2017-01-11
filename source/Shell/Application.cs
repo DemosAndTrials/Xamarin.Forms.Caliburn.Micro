@@ -6,7 +6,6 @@ using Shared.ViewModels;
 using Shell.Services;
 using Shell.Views;
 using Xamarin.Forms;
-using MainView = Shell.Views.MainView;
 
 namespace Shell
 {
@@ -35,6 +34,7 @@ namespace Shell
 
             container
                 .PerRequest<RootViewModel>()
+                .PerRequest<ShellViewModel>()
                 .PerRequest<LoginViewModel>()
                 .PerRequest<LoginPopupViewModel>()
                 .PerRequest<MainViewModel>()

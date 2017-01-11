@@ -43,7 +43,6 @@ namespace Shared.ViewModels
             set { }
         }
 
-
         #endregion
     }
 }
